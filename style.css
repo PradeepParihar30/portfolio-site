@@ -341,7 +341,6 @@
     color: #F0F0F0;
    font-weight: 400;
    text-align:flex-start;
-   /* font-family: 'Times New Roman', Times, serif; */
    margin-bottom: 2rem;
  }
 
@@ -379,7 +378,6 @@
    font-weight: 400;
    margin-left: 1rem;
    color: #F0F0F0;
-    font-family: 'Times New Roman', Times, serif; /* Change font family if needed */
  }
 
 .skills-section {
@@ -478,7 +476,7 @@
   margin-bottom: 70px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.4);
   transition: transform 0.4s, box-shadow 0.4s;
-  z-index: 0.5;
+  z-index: 1;
 }
 
 .timeline-item:hover {
@@ -1104,7 +1102,6 @@
 
  .copyright {
    padding: 20px;
-   /* background: var(--main-color); */
    text-align: center;
    color: #ffffff;
  }
