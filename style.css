@@ -251,6 +251,13 @@
   transition: transform 0.3s ease; /* Smooth transition for hover effect */
   transform-style: preserve-3d;
 }
+@media (max-width: 480px) {
+  .home-img img {
+    width: 70vw;
+    height: 70vw;
+  }
+}
+
 
 .home-img img:hover {
   transform: rotateY(15deg) rotateX(10deg); /* 3D rotation effect on hover */
@@ -1165,13 +1172,6 @@
      display: block;
      background: var(--bg-color);
    }
-
-   #darkmode {
-     position: absolute;
-     top: 1.4rem;
-     right: 2rem;
-   }
-
    .scroll-down {
      display: none;
    }
@@ -1299,7 +1299,6 @@
 }
 .contact-section {
   padding: 80px 20px;
-  background: url('your-background.jpg') center/cover no-repeat;
   color: #13E8E9;;
   font-family: 'Segoe UI', sans-serif;
 }
