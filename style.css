@@ -196,7 +196,7 @@
  .logo span {
    font-size: 1.61rem;
    font-weight: 600;
-   color: crimson;
+   color: #FF6600;
  }
 
  .navbar {
@@ -219,11 +219,6 @@
    cursor: pointer;
    z-index: 10001;
    display: none;
- }
-
- #darkmode {
-   font-size: 22px;
-   cursor: pointer;
  }
 
  .home {
@@ -377,7 +372,7 @@
 
  .information .info-box .bx {
    font-size: 22px;
-   color: #000000;
+   color: #ffffff;
  }
 
  .information .info-box span {
