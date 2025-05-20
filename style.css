@@ -341,7 +341,7 @@
     color: #F0F0F0;
    font-weight: 400;
    text-align:flex-start;
-   font-family: 'Times New Roman', Times, serif;
+   /* font-family: 'Times New Roman', Times, serif; */
    margin-bottom: 2rem;
  }
 
@@ -478,6 +478,7 @@
   margin-bottom: 70px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.4);
   transition: transform 0.4s, box-shadow 0.4s;
+  z-index: 1;
 }
 
 .timeline-item:hover {
