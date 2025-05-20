@@ -478,7 +478,7 @@
   margin-bottom: 70px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.4);
   transition: transform 0.4s, box-shadow 0.4s;
-  z-index: 1;
+  z-index: 0.5;
 }
 
 .timeline-item:hover {
@@ -727,6 +727,15 @@
       width: 100%;
       display: block;
       border-radius: 15px;
+    }
+    .project-card a{
+      text-decoration: none;
+      color: #00FFFF;
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-top: 10px;
+      display: inline-block;
+      transition: color 0.3s ease;
     }
 
     .github-link {
